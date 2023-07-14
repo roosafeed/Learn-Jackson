@@ -27,6 +27,6 @@ public class FileHandler {
             System.out.println(line);
         }
 
-        reader.close();
+        bufferedReader.close();
     }
 }
